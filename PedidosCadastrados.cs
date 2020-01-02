@@ -90,7 +90,7 @@ namespace CadastroPedido
                     cmd.Parameters.AddWithValue("@id", ID);
                     cmd.ExecuteNonQuery();
                     conexao.Close();
-                    MessageBox.Show("Dados elimitados com sucesso!");
+                    MessageBox.Show("Dados removidos!");
                    
                 }
                 else
